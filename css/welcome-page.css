@@ -1,0 +1,32 @@
+/*CSS
+Note: Add-time.php has different logic and custom css.
+*/
+html,
+body{
+  height: 100%;
+}
+
+#default-bg {
+  background-color: #283149;
+}
+
+#main-bg {
+  background-color: #ffffff;
+}
+
+.navbar {
+  background-color: #283149;
+}
+
+.btn-primary {
+  border: 0px!important;
+  /* WebKit (Safari/Chrome) Only */
+  background: rgba(82,255,119,1);
+  background: -moz-linear-gradient(left, rgba(82,255,119,1) 0%, rgba(70,239,134,1) 65%, rgba(64,231,142,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,255,119,1)), color-stop(65%, rgba(70,239,134,1)), color-stop(100%, rgba(64,231,142,1)));
+  background: -webkit-linear-gradient(left, rgba(82,255,119,1) 0%, rgba(70,239,134,1) 65%, rgba(64,231,142,1) 100%);
+  background: -o-linear-gradient(left, rgba(82,255,119,1) 0%, rgba(70,239,134,1) 65%, rgba(64,231,142,1) 100%);
+  background: -ms-linear-gradient(left, rgba(82,255,119,1) 0%, rgba(70,239,134,1) 65%, rgba(64,231,142,1) 100%);
+  background: linear-gradient(to right, rgba(82,255,119,1) 0%, rgba(70,239,134,1) 65%, rgba(64,231,142,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52ff77', endColorstr='#40e78e', GradientType=1 );
+}
