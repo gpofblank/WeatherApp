@@ -6,6 +6,11 @@ body{
   height: 100%;
 }
 
+#dropdown-menu-fix {
+  left: auto;
+  right: auto;
+}
+
 #default-bg {
   background-color: #283149;
 }

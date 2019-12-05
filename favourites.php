@@ -22,7 +22,7 @@ Reads the GET request initiated from the Ajax call and builds the Favourites VIE
         
           echo"
         <a class=\"nav-link dropdown-toggle rounded px-1 py-1 my-1 ml-1\" id=\"dropdown04\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" id=\"Favourites\">Favourites</a>
-        <div class=\"dropdown-menu\" aria-labelledby=\"dropdown04\">";
+        <div class=\"dropdown-menu\" id= \"dropdown-menu-fix\" aria-labelledby=\"dropdown04\">";
             
             for ($i=0; $i < sizeof($_SESSION['FavouritesArray']); $i++) {
           echo "<option class=\"dropdown-item\" value=\"" . $_SESSION['FavouritesArray'][$i] . "\" onclick=\"showData(this.value)\">" . $_SESSION['FavouritesArray'][$i] . "</option>";
@@ -35,7 +35,7 @@ Reads the GET request initiated from the Ajax call and builds the Favourites VIE
             
             echo"
         <a class=\"nav-link dropdown-toggle rounded px-1 py-1 my-1 ml-1\" id=\"dropdown04\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\" id=\"Favourites\">Favourites</a>
-        <div class=\"dropdown-menu\" aria-labelledby=\"dropdown04\">";
+        <div class=\"dropdown-menu\" id= \"dropdown-menu-fix\" aria-labelledby=\"dropdown04\">";
             
             for ($i=0; $i < sizeof($_SESSION['FavouritesArray']); $i++) {
           echo "<option class=\"dropdown-item\" value=\"" . $_SESSION['FavouritesArray'][$i] . "\" onclick=\"showData(this.value)\">" . $_SESSION['FavouritesArray'][$i] . "</option>";
